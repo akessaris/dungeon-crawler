@@ -23,7 +23,7 @@ body {
 
 .App {
   --col-side: calc(var(--tile-size) * 4);
-  --col-center: calc(var(--tile-size) * 10);
+  --col-center: calc(var(--tile-size) * 11);
 
   width: calc(var(--tile-size) * (20));
   margin: auto;
