@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <h1 className="App-title">Dungeon Crawler</h1>
       </header>
-      <Grid gridSize="100"/>
+      <Grid gridWidth="11"/>
     </div>
   );
 }
