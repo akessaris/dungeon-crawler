@@ -1,10 +1,13 @@
 import './App.scss';
-import PlayerComponent from './components/PlayerComponent/PlayerComponent';
+import Grid from './components/Grid/Grid';
 
 function App() {
   return (
     <div className="App">
-      <PlayerComponent />
+      <header className="App-header">
+        <h1 className="App-title">Dungeon Crawler</h1>
+      </header>
+      <Grid gridSize="100"/>
     </div>
   );
 }

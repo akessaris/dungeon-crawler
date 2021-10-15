@@ -1,5 +1,38 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Roboto';
-  background-color: blue;
+  font-family: -apple-system, 'Roboto';
+}
+
+:root {
+  // Tile Colors
+  --color-0: #eaeaea;
+  --color-1: #ff6600;
+  --color-2: #eec900;
+  --color-3: #0000ff;
+  --color-4: #cc00ff;
+  --color-5: #00ff00;
+  --color-6: #66ccff;
+  --color-7: #ff0000;
+
+  // Tile size
+  --tile-size: 30px;
+
+  // Grid Configuration
+  --cols: 10;
+}
+
+.App {
+  --col-side: calc(var(--tile-size) * 4);
+  --col-center: calc(var(--tile-size) * 10);
+
+  width: calc(var(--tile-size) * (20));
+  margin: auto;
+  display: grid;
+
+  grid-template-columns: var(--col-side) var(--col-center) var(--col-side);
+  grid-template-rows: 100px auto;
+
+  grid-template-areas:
+    'h h h'
+    'l c r';
 }

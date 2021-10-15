@@ -1,0 +1,9 @@
+.Tile {
+  border: 1px solid black;
+  width: var(--tile-size);
+  height: var(--tile-size);
+}
+
+.color-red {
+  background-color: var(--color-7);
+}
