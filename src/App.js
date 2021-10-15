@@ -7,13 +7,16 @@ function App() {
   const health = 100;
   const floor = 1;
 
+  const gridWidth = 11;
+  const gridHeight = 10;
+
   return (
     <div className="App">
       <header className="App-header">
         <h1 className="App-title">Dungeon Crawler</h1>
       </header>
       <StatusBoard health={health} floor={floor}/>
-      <Grid gridWidth="11"/>
+      <Grid gridWidth={gridWidth} gridHeight={gridHeight}/>
     </div>
   );
 }
