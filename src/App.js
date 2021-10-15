@@ -1,8 +1,10 @@
-import './App.css';
+import './App.scss';
+import PlayerComponent from './components/PlayerComponent/PlayerComponent';
 
 function App() {
   return (
     <div className="App">
+      <PlayerComponent />
     </div>
   );
 }
