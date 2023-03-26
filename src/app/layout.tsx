@@ -1,4 +1,5 @@
 import { ReactNode } from "react";
+import classes from "./layout.module.scss";
 
 export const metadata = {
   title: "Dungeon crawler",
@@ -8,7 +9,7 @@ export const metadata = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={classes.darkMode}>{children}</body>
     </html>
   );
 }
