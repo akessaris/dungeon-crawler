@@ -1,2 +1,4 @@
-const Grid = () => <>Grid</> 
+function Grid() {
+  return <>Grid</>;
+}
 export default Grid;
