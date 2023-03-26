@@ -25,6 +25,7 @@
       {
         "ignoreFunctionalComponents": true
       }
-    ]
+    ],
+    "react/function-component-definition": ["off"]
   }
 }
