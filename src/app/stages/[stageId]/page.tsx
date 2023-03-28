@@ -1,5 +1,15 @@
 import Grid from "./grid";
+import { StatusBoard } from "./status-board";
 
-const Stage = () => <Grid />;
+const Stage = ({
+  params: { stageId = "unknown" },
+}: {
+  params: { stageId: string };
+}) => (
+  <>
+    <Grid />
+    <StatusBoard stage={stageId} />
+  </>
+);
 
 export default Stage;
