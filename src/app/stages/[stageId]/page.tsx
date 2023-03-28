@@ -1,3 +1,5 @@
-const Grid = () => <>Grid</>;
+import Grid from "./grid";
 
-export default Grid;
+const Stage = () => <Grid />;
+
+export default Stage;

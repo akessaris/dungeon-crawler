@@ -1,0 +1,7 @@
+$tileSize: 75px;
+
+.tile {
+  border: 1px solid black;
+  width: $tileSize;
+  height: $tileSize;
+}
